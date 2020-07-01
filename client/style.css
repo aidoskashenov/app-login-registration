@@ -1,1 +1,3 @@
-body <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">>
+body {
+  background-color: red;
+}
