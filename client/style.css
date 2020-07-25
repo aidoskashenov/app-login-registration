@@ -1,49 +1,7 @@
-:root {
-  --primary-color:#6823D8;
-  --secondary-color:#FF7B4E;
-  --accent-color:#1F1926;
-  --success-color:#B1A8B9;
-}
-
 body {
-  background-color: var(--secondary-color);
-  font-size: 20px;
-
+  margin: 0;
 }
 
-h1 {
-  color: var(--primary-color);
-  font-size: 1.953em;
-  padding: 1rem;
-  text-align: center; 
-}
-
-form {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  padding: 3px;
-}
-
-input {
-  border-radius: 3px;
-  color: var(--accent-color);
-  margin: 0.5rem;
-}
-
-div:last-of-type {
-  margin-bottom: 1rem;
-}
-
-button {
-  min-width: 8rem;
-  background-color: red;
-  border-radius: 4px;
-  border: var(--success-color);
-}
-
-.screen-reader-text {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
+canvas {
+ display: block;
 }
